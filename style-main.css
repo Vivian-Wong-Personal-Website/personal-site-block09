@@ -3,8 +3,8 @@
 }
 
 body {
-    padding: 0;
-    margin: 0;
+    padding:0;
+    margin:0;
     background-color: #c4f4c7;
 }
 
@@ -32,15 +32,24 @@ h1 {
     margin: 0;
     color: gray;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
 }
 
-section {
+main {
+    background-color: #c4f4c7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 200px;
+    height: 10vh;
+
+}
+
+footer {
+    background-color: #d9fff8;
     border: 10px solid;
     border-color: #e8e1ef;
-    margin: 10px;
-}
-
-h2 {
-    font-size: 40px;
+    text-align: right;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-width: 100%;
 }
