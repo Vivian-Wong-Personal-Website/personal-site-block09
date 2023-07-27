@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./contactFormStyle.css" />
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <h1>Let's Keep In Touch</h1>
+    <article class="namecontainer">
+        <div class="nameform">
+            <label for="name">Enter your full name: </label>
+            <input type="text" name="name" id="name">
+        </div><br />
+        <div class="nameform">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email">
+        </div><br />
+    </article>
+
+    <article>
+        <h2>How did you hear about us?:</h2>
+        <form class="checkbox-container">
+            <input type="checkbox" id="friend" name="friend" value="friend"/>
+            <label for="friend"> Through a friend</label><br />
+
+            <input type="checkbox" id="Linkedln" name="Linkedln" value="Linkedln"/>
+            <label for="Linkedln"> Linkedln</label><br />
+
+            <input type="checkbox" id="Indeed" name="Indeed" value="Indeed"/>
+            <label for="Indeed"> Indeed</label><br />
+
+            <input type="checkbox" id="Twitter" name="Twitter" value="Twitter"/>
+            <label for="Twitter"> Twitter</label><br />
+
+            <input type="checkbox" id="Instagram" name="Instagram" value="Instagram"/>
+            <label for="Instagram"> Instagram</label><br />
+
+            <input type="checkbox" id="Other" name="Other" value="Other" />
+            <label for="Other"> Other</label><br />
+
+            <label for="other-notes">please specify (optional):</label><br />
+            <textarea id="other-notes" name="other-notes" rows="4" cols="50"></textarea>
+            <br />
+
+        </form>
+    </article>
+    <article>
+        <form action="./success.html" method="GET" class="submitContainer">
+        <div>
+            <input type="submit" value="SUBMIT" class="submit">
+        </div>
+        </form>
+    </article>
+
+</body>
+
+</html>
