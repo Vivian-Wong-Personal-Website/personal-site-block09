@@ -40,3 +40,11 @@ h2{
     background-color: #d4bebe;
     text-align: center;
 }
+
+@media (hover:hover){
+.submit:hover{
+    font-size: 3rem;
+    color:rebeccapurple;
+}
+}
+    
